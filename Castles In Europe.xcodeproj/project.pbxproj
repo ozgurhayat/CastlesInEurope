@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82076D9425B3B8F600F3156B /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82076D9325B3B8F600F3156B /* CountryCell.swift */; };
+		82076D9D25B3D3E300F3156B /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82076D9C25B3D3E300F3156B /* DummyData.swift */; };
+		82076DA125B3D9C600F3156B /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82076DA025B3D9C600F3156B /* Cells.swift */; };
+		82144C132573205C004B8726 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82144C122573205C004B8726 /* RegistrationController.swift */; };
+		82144C1625732D0F004B8726 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82144C1525732D0F004B8726 /* ResetPasswordController.swift */; };
+		824E5F942571725D004679D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E5F932571725D004679D1 /* AppDelegate.swift */; };
+		824E5F962571725D004679D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E5F952571725D004679D1 /* SceneDelegate.swift */; };
+		824E5F9B2571725D004679D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824E5F992571725D004679D1 /* Main.storyboard */; };
+		824E5F9D2571725E004679D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824E5F9C2571725E004679D1 /* Assets.xcassets */; };
+		824E5FA02571725E004679D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824E5F9E2571725E004679D1 /* LaunchScreen.storyboard */; };
+		824E5FAC25717390004679D1 /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E5FAB25717390004679D1 /* Segues.swift */; };
+		824E5FB725717B4A004679D1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E5FB625717B4A004679D1 /* LoginController.swift */; };
+		8253A5F225AFE7BF00AB3870 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253A5F125AFE7BF00AB3870 /* Countries.swift */; };
+		8253A5F525AFE91600AB3870 /* Castles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253A5F425AFE91600AB3870 /* Castles.swift */; };
+		8254C6542577100E00EC1A53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C6532577100E00EC1A53 /* User.swift */; };
+		825CFCF02571E35800BE1477 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825CFCEF2571E35800BE1477 /* DividerView.swift */; };
+		8264D75F2573F558006A0D35 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264D75E2573F558006A0D35 /* AuthenticationViewModel.swift */; };
+		8264D785257465B7006A0D35 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264D784257465B7006A0D35 /* HomeController.swift */; };
+		8264D78A257477CA006A0D35 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264D789257477CA006A0D35 /* Service.swift */; };
+		8269E0A22571AA6400BE4767 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269E0A12571AA6400BE4767 /* Extensions.swift */; };
+		8269E0A52571D40D00BE4767 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269E0A42571D40D00BE4767 /* CustomTextField.swift */; };
+		8269E0A82571D6FA00BE4767 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269E0A72571D6FA00BE4767 /* AuthButton.swift */; };
+		826E2C67257685FF000A5EA2 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E2C66257685FF000A5EA2 /* OnboardingController.swift */; };
+		826E2C6A2576908B000A5EA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E2C692576908B000A5EA2 /* Constants.swift */; };
+		826E2C6F2576E4A1000A5EA2 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E2C6E2576E4A1000A5EA2 /* OnboardingViewModel.swift */; };
+		826FF2B025ABCA3D00F36435 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826FF2AF25ABCA3D00F36435 /* GoogleService-Info.plist */; };
+		82738D5E25AA727000F13A29 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82738D5D25AA727000F13A29 /* TabBarController.swift */; };
+		82B558FB25AA8E5B00B8F5C5 /* CountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B558FA25AA8E5B00B8F5C5 /* CountryVC.swift */; };
+		82B558FF25AA908200B8F5C5 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B558FE25AA908200B8F5C5 /* ReviewsVC.swift */; };
+		82BB36F6258FE18300B66EEB /* AppleSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB36F5258FE18300B66EEB /* AppleSignInService.swift */; };
+		9D941F77387E70AB5A02333C /* Pods_CastlesInEurope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6924F248021E1B4F424939AF /* Pods_CastlesInEurope.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4952296DF9FBD78976C867FD /* Pods-CastlesInEurope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastlesInEurope.debug.xcconfig"; path = "Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope.debug.xcconfig"; sourceTree = "<group>"; };
+		6924F248021E1B4F424939AF /* Pods_CastlesInEurope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastlesInEurope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82076D9325B3B8F600F3156B /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		82076D9C25B3D3E300F3156B /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		82076DA025B3D9C600F3156B /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		82144C122573205C004B8726 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		82144C1525732D0F004B8726 /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
+		824E5F902571725C004679D1 /* Castles In Europe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Castles In Europe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824E5F932571725D004679D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		824E5F952571725D004679D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		824E5F9A2571725D004679D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		824E5F9C2571725E004679D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824E5F9F2571725E004679D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		824E5FA12571725E004679D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824E5FAB25717390004679D1 /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
+		824E5FB625717B4A004679D1 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8253A5F125AFE7BF00AB3870 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		8253A5F425AFE91600AB3870 /* Castles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Castles.swift; sourceTree = "<group>"; };
+		8254C6532577100E00EC1A53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		825CFCEF2571E35800BE1477 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		8264D75E2573F558006A0D35 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		8264D784257465B7006A0D35 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8264D789257477CA006A0D35 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8269E0A12571AA6400BE4767 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8269E0A42571D40D00BE4767 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8269E0A72571D6FA00BE4767 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		826E2C66257685FF000A5EA2 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		826E2C692576908B000A5EA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		826E2C6E2576E4A1000A5EA2 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		826FF2AF25ABCA3D00F36435 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82738D5D25AA727000F13A29 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		82B558FA25AA8E5B00B8F5C5 /* CountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryVC.swift; sourceTree = "<group>"; };
+		82B558FE25AA908200B8F5C5 /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		82BB33F6258FB22700B66EEB /* CastlesInEurope.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CastlesInEurope.entitlements; sourceTree = "<group>"; };
+		82BB36F5258FE18300B66EEB /* AppleSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInService.swift; sourceTree = "<group>"; };
+		8494D9422C9BE39BB44FC693 /* Pods-CastlesInEurope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastlesInEurope.release.xcconfig"; path = "Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824E5F8D2571725C004679D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D941F77387E70AB5A02333C /* Pods_CastlesInEurope.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6927B3900DF5E07C5727C617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6924F248021E1B4F424939AF /* Pods_CastlesInEurope.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82144C1825732D35004B8726 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				824E5F992571725D004679D1 /* Main.storyboard */,
+				824E5F9E2571725E004679D1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		824E5F872571725C004679D1 = {
+			isa = PBXGroup;
+			children = (
+				824E5F922571725D004679D1 /* CastlesInEurope */,
+				824E5FAA25717381004679D1 /* Segues+Cells */,
+				82144C1825732D35004B8726 /* Storyboards */,
+				824E5FA8257172C9004679D1 /* Resources */,
+				824E5F912571725C004679D1 /* Products */,
+				FDFE9CA94A74F49ED2FE81B9 /* Pods */,
+				6927B3900DF5E07C5727C617 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		824E5F912571725C004679D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824E5F902571725C004679D1 /* Castles In Europe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824E5F922571725D004679D1 /* CastlesInEurope */ = {
+			isa = PBXGroup;
+			children = (
+				82BB33F6258FB22700B66EEB /* CastlesInEurope.entitlements */,
+				824E5FB52571743B004679D1 /* Utils */,
+				824E5FB02571740C004679D1 /* Model */,
+				824E5FB125717411004679D1 /* View */,
+				824E5FB225717417004679D1 /* ViewModel */,
+				82738D5B25AA723F00F13A29 /* Controller */,
+				824E5FB42571742E004679D1 /* API */,
+			);
+			path = CastlesInEurope;
+			sourceTree = "<group>";
+		};
+		824E5FA8257172C9004679D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				824E5F9C2571725E004679D1 /* Assets.xcassets */,
+				824E5F932571725D004679D1 /* AppDelegate.swift */,
+				824E5F952571725D004679D1 /* SceneDelegate.swift */,
+				826FF2AF25ABCA3D00F36435 /* GoogleService-Info.plist */,
+				824E5FA12571725E004679D1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		824E5FAA25717381004679D1 /* Segues+Cells */ = {
+			isa = PBXGroup;
+			children = (
+				824E5FAB25717390004679D1 /* Segues.swift */,
+				82076DA025B3D9C600F3156B /* Cells.swift */,
+			);
+			path = "Segues+Cells";
+			sourceTree = "<group>";
+		};
+		824E5FB02571740C004679D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8254C6532577100E00EC1A53 /* User.swift */,
+				8253A5F125AFE7BF00AB3870 /* Countries.swift */,
+				8253A5F425AFE91600AB3870 /* Castles.swift */,
+				82076D9C25B3D3E300F3156B /* DummyData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		824E5FB125717411004679D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8269E0A42571D40D00BE4767 /* CustomTextField.swift */,
+				8269E0A72571D6FA00BE4767 /* AuthButton.swift */,
+				825CFCEF2571E35800BE1477 /* DividerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		824E5FB225717417004679D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8264D75E2573F558006A0D35 /* AuthenticationViewModel.swift */,
+				826E2C6E2576E4A1000A5EA2 /* OnboardingViewModel.swift */,
+				82076D9325B3B8F600F3156B /* CountryCell.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		824E5FB325717422004679D1 /* LoginScreenController */ = {
+			isa = PBXGroup;
+			children = (
+				824E5FB625717B4A004679D1 /* LoginController.swift */,
+				8264D784257465B7006A0D35 /* HomeController.swift */,
+				82144C122573205C004B8726 /* RegistrationController.swift */,
+				82144C1525732D0F004B8726 /* ResetPasswordController.swift */,
+				826E2C66257685FF000A5EA2 /* OnboardingController.swift */,
+			);
+			path = LoginScreenController;
+			sourceTree = "<group>";
+		};
+		824E5FB42571742E004679D1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8264D789257477CA006A0D35 /* Service.swift */,
+				82BB36F5258FE18300B66EEB /* AppleSignInService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		824E5FB52571743B004679D1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8269E0A12571AA6400BE4767 /* Extensions.swift */,
+				826E2C692576908B000A5EA2 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		82738D5B25AA723F00F13A29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82B558F925AA8DF500B8F5C5 /* HomeScreenController */,
+				824E5FB325717422004679D1 /* LoginScreenController */,
+				82738D5C25AA724E00F13A29 /* TabBarController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82738D5C25AA724E00F13A29 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				82738D5D25AA727000F13A29 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		82B558F925AA8DF500B8F5C5 /* HomeScreenController */ = {
+			isa = PBXGroup;
+			children = (
+				82B558FA25AA8E5B00B8F5C5 /* CountryVC.swift */,
+				82B558FE25AA908200B8F5C5 /* ReviewsVC.swift */,
+			);
+			path = HomeScreenController;
+			sourceTree = "<group>";
+		};
+		FDFE9CA94A74F49ED2FE81B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4952296DF9FBD78976C867FD /* Pods-CastlesInEurope.debug.xcconfig */,
+				8494D9422C9BE39BB44FC693 /* Pods-CastlesInEurope.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824E5F8F2571725C004679D1 /* Castles In Europe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824E5FA42571725E004679D1 /* Build configuration list for PBXNativeTarget "Castles In Europe" */;
+			buildPhases = (
+				2DEA7E1AF89DA5DD6E80B6E9 /* [CP] Check Pods Manifest.lock */,
+				824E5F8C2571725C004679D1 /* Sources */,
+				824E5F8D2571725C004679D1 /* Frameworks */,
+				824E5F8E2571725C004679D1 /* Resources */,
+				A5F4E5B0A2B302C0E6E55F4A /* [CP] Embed Pods Frameworks */,
+				5278C4C59ECF019F081C6959 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Castles In Europe";
+			productName = "Castles in Europe";
+			productReference = 824E5F902571725C004679D1 /* Castles In Europe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824E5F882571725C004679D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					824E5F8F2571725C004679D1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 824E5F8B2571725C004679D1 /* Build configuration list for PBXProject "Castles In Europe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 824E5F872571725C004679D1;
+			productRefGroup = 824E5F912571725C004679D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824E5F8F2571725C004679D1 /* Castles In Europe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824E5F8E2571725C004679D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824E5FA02571725E004679D1 /* LaunchScreen.storyboard in Resources */,
+				826FF2B025ABCA3D00F36435 /* GoogleService-Info.plist in Resources */,
+				824E5F9D2571725E004679D1 /* Assets.xcassets in Resources */,
+				824E5F9B2571725D004679D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DEA7E1AF89DA5DD6E80B6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CastlesInEurope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5278C4C59ECF019F081C6959 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F4E5B0A2B302C0E6E55F4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CastlesInEurope/Pods-CastlesInEurope-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824E5F8C2571725C004679D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8253A5F225AFE7BF00AB3870 /* Countries.swift in Sources */,
+				8269E0A22571AA6400BE4767 /* Extensions.swift in Sources */,
+				8264D78A257477CA006A0D35 /* Service.swift in Sources */,
+				82B558FB25AA8E5B00B8F5C5 /* CountryVC.swift in Sources */,
+				82144C132573205C004B8726 /* RegistrationController.swift in Sources */,
+				826E2C6F2576E4A1000A5EA2 /* OnboardingViewModel.swift in Sources */,
+				8269E0A82571D6FA00BE4767 /* AuthButton.swift in Sources */,
+				824E5F942571725D004679D1 /* AppDelegate.swift in Sources */,
+				82076D9D25B3D3E300F3156B /* DummyData.swift in Sources */,
+				82076D9425B3B8F600F3156B /* CountryCell.swift in Sources */,
+				826E2C6A2576908B000A5EA2 /* Constants.swift in Sources */,
+				8264D75F2573F558006A0D35 /* AuthenticationViewModel.swift in Sources */,
+				8269E0A52571D40D00BE4767 /* CustomTextField.swift in Sources */,
+				824E5F962571725D004679D1 /* SceneDelegate.swift in Sources */,
+				82738D5E25AA727000F13A29 /* TabBarController.swift in Sources */,
+				82076DA125B3D9C600F3156B /* Cells.swift in Sources */,
+				824E5FAC25717390004679D1 /* Segues.swift in Sources */,
+				8264D785257465B7006A0D35 /* HomeController.swift in Sources */,
+				826E2C67257685FF000A5EA2 /* OnboardingController.swift in Sources */,
+				82BB36F6258FE18300B66EEB /* AppleSignInService.swift in Sources */,
+				8253A5F525AFE91600AB3870 /* Castles.swift in Sources */,
+				8254C6542577100E00EC1A53 /* User.swift in Sources */,
+				825CFCF02571E35800BE1477 /* DividerView.swift in Sources */,
+				82144C1625732D0F004B8726 /* ResetPasswordController.swift in Sources */,
+				824E5FB725717B4A004679D1 /* LoginController.swift in Sources */,
+				82B558FF25AA908200B8F5C5 /* ReviewsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		824E5F992571725D004679D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824E5F9A2571725D004679D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		824E5F9E2571725E004679D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824E5F9F2571725E004679D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		824E5FA22571725E004679D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824E5FA32571725E004679D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824E5FA52571725E004679D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4952296DF9FBD78976C867FD /* Pods-CastlesInEurope.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CastlesInEurope/CastlesInEurope.entitlements;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ozgur.Castles-in-Europe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824E5FA62571725E004679D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8494D9422C9BE39BB44FC693 /* Pods-CastlesInEurope.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CastlesInEurope/CastlesInEurope.entitlements;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ozgur.Castles-in-Europe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824E5F8B2571725C004679D1 /* Build configuration list for PBXProject "Castles In Europe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824E5FA22571725E004679D1 /* Debug */,
+				824E5FA32571725E004679D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824E5FA42571725E004679D1 /* Build configuration list for PBXNativeTarget "Castles In Europe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824E5FA52571725E004679D1 /* Debug */,
+				824E5FA62571725E004679D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824E5F882571725C004679D1 /* Project object */;
+}
